@@ -1,0 +1,43 @@
+site_name: AI Platform Architecture Lab
+site_description: AI Platform Architecture, AI Infrastructure, and AI System Design
+site_author: Chandra Sekhar Merugu
+site_url: https://chanduazad001.github.io/ai-platform-architecture-lab/
+
+repo_name: chanduazad001/ai-platform-architecture-lab
+repo_url: https://github.com/chanduazad001/ai-platform-architecture-lab
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+extra:
+  homepage: https://chanduazad001.github.io/
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+
+  - AI Architecture:
+      - Overview: ai-architecture/index.md
+
+  - AI System Design:
+      - Overview: ai-system-design/index.md
