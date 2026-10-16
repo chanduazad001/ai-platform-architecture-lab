@@ -14,3 +14,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+.venv*/
+*.code-workspace
+CLAUDE.local.md
+.claude/settings.local.json
